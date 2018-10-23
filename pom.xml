@@ -39,5 +39,5 @@
 		</plugins>
 
 	</build>
-    		<version>${version}</version>
+    		<version>${bamboo.mcdatastructures.version}</version>
 </project>
