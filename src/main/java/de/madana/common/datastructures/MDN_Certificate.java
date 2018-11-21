@@ -1,10 +1,11 @@
 package de.madana.common.datastructures;
 
-public class MDN_Application 
+public class MDN_Certificate 
 {
 private String pem;
 
-public String getPem() {
+public String getPem() 
+{
 	return pem;
 }
 
