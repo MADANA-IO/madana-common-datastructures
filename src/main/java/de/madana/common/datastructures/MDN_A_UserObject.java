@@ -38,6 +38,16 @@ public abstract class MDN_A_UserObject
 	
 	/** The image. */
 	String image="";
+	
+	String activated;
+
+	public String getActivated() {
+		return activated;
+	}
+
+	public void setActivated(String activated) {
+		this.activated = activated;
+	}
 
 	/**
 	 * Gets the image.
