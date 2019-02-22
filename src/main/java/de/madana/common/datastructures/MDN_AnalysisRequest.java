@@ -1,13 +1,22 @@
 package de.madana.common.datastructures;
 
+import java.util.List;
+
 public class MDN_AnalysisRequest 
 {
  String uuid;
  String creator;
  String created;
  String status;
+ List<MDN_AnalysisRequestAction> actions;
  
- public String getUuid() {
+ public List<MDN_AnalysisRequestAction> getActions() {
+	return actions;
+}
+public void setActions(List<MDN_AnalysisRequestAction> actions) {
+	this.actions = actions;
+}
+public String getUuid() {
 	return uuid;
 }
 public void setUuid(String uuid) {
