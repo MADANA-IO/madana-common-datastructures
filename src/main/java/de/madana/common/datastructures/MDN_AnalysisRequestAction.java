@@ -6,7 +6,14 @@ public class MDN_AnalysisRequestAction
 	String date;
 	String action;
 	String details;
+	String requestID;
 	
+	public String getRequestID() {
+		return requestID;
+	}
+	public void setRequestID(String requestID) {
+		this.requestID = requestID;
+	}
 	public MDN_SimpleUserProfile getUser() 
 	{
 		return user;
