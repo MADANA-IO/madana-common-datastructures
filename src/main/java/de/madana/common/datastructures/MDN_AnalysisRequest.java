@@ -8,7 +8,23 @@ public class MDN_AnalysisRequest
  String creator;
  String created;
  String status;
- List<MDN_AnalysisRequestAction> actions;
+ String views;
+ String participants;
+ private String datasetCount;
+ public String getViews() {
+	return views;
+}
+public void setViews(String views) {
+	this.views = views;
+}
+public String getParticipants() {
+	return participants;
+}
+public void setParticipants(String participants) {
+	this.participants = participants;
+}
+
+List<MDN_AnalysisRequestAction> actions;
  
  public List<MDN_AnalysisRequestAction> getActions() {
 	return actions;
@@ -45,4 +61,10 @@ public void setStatus(String status) {
  {
 	 return "[ "+status +" ]"+uuid+" "+ "created from " + creator +" at " + created;
  }
+public String getDatasetCount() {
+	return datasetCount;
+}
+public void setDatasetCount(String datasetCount) {
+	this.datasetCount = datasetCount;
+}
 }
