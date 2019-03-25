@@ -2,7 +2,7 @@ package de.madana.common.datastructures;
 
 public class MDN_AnalysisRequestAction 
 {
-	MDN_SimpleUserProfile user;
+	String user;
 	String date;
 	String action;
 	String details;
@@ -14,12 +14,12 @@ public class MDN_AnalysisRequestAction
 	public void setRequestID(String requestID) {
 		this.requestID = requestID;
 	}
-	public MDN_SimpleUserProfile getUser() 
+	public String getUser() 
 	{
 		return user;
 	}
-	public void setUser(MDN_SimpleUserProfile user) {
-		this.user = user;
+	public void setUser(String string) {
+		this.user = string;
 	}
 	public String getDate() {
 		return date;
