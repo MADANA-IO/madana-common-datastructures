@@ -4,8 +4,8 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>de.madana.common</groupId>
-	<artifactId>madana-datastructures</artifactId>
-	<name>madana-datastructures</name>
+	<artifactId>datastructures</artifactId>
+	<name>madana-common-datastructures</name>
 	<packaging>jar</packaging>
 
 
