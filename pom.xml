@@ -44,7 +44,7 @@
 		</plugins>
 
 	</build>
-	<version>${bamboo.mcdatastructures.version}</version>
+	<version>0.1.24-master.1</version>
 	<distributionManagement>
 		<repository>
 			<id>github</id>
